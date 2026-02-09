@@ -4,9 +4,9 @@ AI pet-to-human portrait generator.
 
 - Live app: https://petmorph.app/
 
-## What it does
+## Overview
 
-PetMorph helps you turn a pet photo into a human-style portrait in a few clicks.
+PetMorph turns a pet photo into a human-style portrait. Upload a photo, pick a style, and generate an image you can download and share.
 
 ## How to use
 
@@ -15,11 +15,34 @@ PetMorph helps you turn a pet photo into a human-style portrait in a few clicks.
 3. Pick a style
 4. Generate and download
 
+## Key features
+
+- Pet photo upload
+- Multiple styles/presets
+- Fast generation and download
+- Gallery-style browsing of results (in-app)
+- Account area for managing generations (in-app)
+
+## Product structure (high level)
+
+Common entry points in the web app:
+
+- Home
+- Create / Generate
+- Gallery
+- Pricing
+- Account / Dashboard
+
 ## About this repository
 
-This is a public, lightweight repository used for product info and links.
-The production app runs at https://petmorph.app/.
+This public repository is intentionally lightweight and contains:
+
+- A public README
+- Issue tracking for feedback and bug reports
+
+The production application is hosted at https://petmorph.app/. The core app source code is not published here.
 
 ## Feedback
 
-If you have feedback or bug reports, open a GitHub issue in this repository.
+- Bugs / feature requests: open an issue
+- Other questions: use the contact/support options on the website
