@@ -1,48 +1,64 @@
-# PetMorph
+# PetMorph Public Repository
 
-AI pet-to-human portrait generator.
+Public project documentation for **PetMorph**: AI pet-to-human portrait generation.
 
 - Live app: https://petmorph.app/
+- Product focus: upload a pet photo, choose a style, generate and download/share
 
-## Overview
+## Why this repository is lightweight
 
-PetMorph turns a pet photo into a human-style portrait. Upload a photo, pick a style, and generate an image you can download and share.
+PetMorph runs as an actively maintained production product.  
+The full application source is private for security and operational reasons.
 
-## How to use
+This public repository exists to provide:
 
-1. Open https://petmorph.app/
-2. Upload a pet photo
-3. Pick a style
-4. Generate and download
+- Product overview and architecture notes
+- Public changelog
+- Security reporting path
+- Issue tracking for users and partners
 
-## Key features
+## Product capabilities (public)
 
-- Pet photo upload
-- Multiple styles/presets
-- Fast generation and download
-- Gallery-style browsing of results (in-app)
-- Account area for managing generations (in-app)
+- Pet photo upload and guided generation flow
+- Multiple style presets for pet-to-human transformation
+- Credit-based usage model with pricing plans
+- User dashboard for generation history and account actions
+- SEO-focused and multilingual content surfaces
 
-## Product structure (high level)
+## High-level stack
 
-Common entry points in the web app:
+- Frontend: Next.js + React + TypeScript
+- Backend: Supabase (Auth, Postgres, Storage, RLS)
+- Payments: Stripe and provider integrations
+- AI generation pipeline: async job flow + storage lifecycle management
+- Operations: CI workflows, scripts, and deployment checklists
 
-- Home
-- Create / Generate
-- Gallery
-- Pricing
-- Account / Dashboard
+See:
 
-## About this repository
+- `docs/public-architecture.md`
+- `docs/public-roadmap.md`
+- `CHANGELOG.md`
 
-This public repository is intentionally lightweight and contains:
+## Repository contents
 
-- A public README
-- Issue tracking for feedback and bug reports
+- `README.md`: public project summary
+- `CHANGELOG.md`: public updates and milestones
+- `SECURITY.md`: responsible disclosure process
+- `CONTRIBUTING.md`: contribution guidelines
+- `docs/`: public technical and roadmap docs
+- `.github/`: issue templates and basic docs checks
 
-The production application is hosted at https://petmorph.app/. The core app source code is not published here.
+## Not included in this repository
 
-## Feedback
+- Production source code
+- Infrastructure secrets and deployment credentials
+- Internal runbooks with sensitive implementation details
 
-- Bugs / feature requests: open an issue
-- Other questions: use the contact/support options on the website
+## Feedback and support
+
+- Bug report / feature request: open a GitHub Issue
+- Product support: use the support/contact channel on https://petmorph.app/
+
+## License
+
+This repository is distributed under a proprietary license. See `LICENSE`.
